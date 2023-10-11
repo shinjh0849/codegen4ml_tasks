@@ -11,9 +11,6 @@ split_of_tasks = ['data', 'model', 'eval', 'noml', 'uni']
 
 raw_dataset/[split_of_training]_[split_of_tasks].json
 
-<br>
-<br>
-
 
 
 ## 2. Using the 6 baseline models
@@ -54,9 +51,6 @@ This is the link to download the model snap shot: [link](https://drive.google.co
 
 <br>
 
-
-
-
 ### 2. EK Codegen
 
 #### 1. clone the repo
@@ -88,10 +82,6 @@ This is the link to download the model snap shot: [link](https://drive.google.co
 #### 4. For training and more details, refer to the original repository.
 
 <br>
-
-
-
-
 
 ### 3. CG-RL
 
@@ -125,10 +115,6 @@ This is the link to download the model snap shot: [link](https://drive.google.co
 
 <br>
 
-
-
-
-
 ### 4. TreeCodeGen
 
 #### 1. clone the repo
@@ -161,8 +147,6 @@ This is the link to download the model snap shot: [link](https://drive.google.co
 
 <br>
 
-
-
 ### 5. Code-gen-TAE
 
 #### 1. clone the repo
@@ -191,11 +175,7 @@ This is the link to download the model snap shot: [link](https://drive.google.co
 
 #### 4. For training and more details, refer to the original repository.
 
-
-
-
 <br>
-
 
 ### 6. PyCodeGPT
 
@@ -238,7 +218,6 @@ This is the link to download the model snap shot: [link](https://drive.google.co
 
 #### 4. For training and more details, refer to the original repository.
 
-<br>
 <br>
 
 ## Additional scripts used for the study.
