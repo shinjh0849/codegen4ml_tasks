@@ -2,14 +2,14 @@
 
 
 ## 1. Dataset
-The raw dataset we constructed for different ML tasks and the non-ml tasks in json file:
+The raw dataset we constructed for different ML tasks and the non-ml tasks in json files are in raw_dataset folder
 
 
 split_of_training = ['train', 'dev', 'test']
 
 split_of_tasks = ['data', 'model', 'eval', 'noml', 'uni']
 
-[split_of_training]_[split_of_tasks].json
+raw_dataset/[split_of_training]_[split_of_tasks].json
 
 <br>
 <br>
@@ -17,6 +17,9 @@ split_of_tasks = ['data', 'model', 'eval', 'noml', 'uni']
 
 
 ## 2. Using the 6 baseline models
+
+### 0. We provide the snap shot of the models that we have trained.
+This is the link to download the model snap shot: [link](https://drive.google.com/drive/folders/1M87JktTwvZ64lkWPkQ4Och0zeqYrJDR7?usp=sharing).
 
 
 
@@ -35,7 +38,7 @@ split_of_tasks = ['data', 'model', 'eval', 'noml', 'uni']
 
     ```python dataset.py ```   
 
-#### 3. load the trained models for use.
+#### 3. load the snap shot of the models.
 
 1. save the trained model file to a directory in the repository: e.g. saved_models/
 
@@ -69,7 +72,7 @@ split_of_tasks = ['data', 'model', 'eval', 'noml', 'uni']
 
     ```python dataset.py --pretrain data/conala/conala-mined.jsonl --topk 100000 --include_api apidocs/processed/distsmpl/snippet_15k/goldmine_snippet_count100k_topk1_temp2.jsonl```
 
-#### 3. load the trained modes for use.
+#### 3. load the snap shot of the models.
 
 1. save the trained model file to a diretory in the repository e.g. saved_models/
 
@@ -105,7 +108,7 @@ split_of_tasks = ['data', 'model', 'eval', 'noml', 'uni']
 
     ```python dataset.py ```   
 
-#### 3. load the trained modes for use.
+#### 3. load the snap shot of the models.
 
 1. save the trained model file to a diretory in the repository e.g. saved_models/
 
@@ -144,7 +147,7 @@ split_of_tasks = ['data', 'model', 'eval', 'noml', 'uni']
 4. Build train/dev/test dataset: Run datasets/conala/dataset_hie.py
 
 
-#### 3. load the trained modes for use.
+#### 3. load the snap shot of the models.
 
 1. save the trained model file to a diretory in the repository e.g. saved_models/
 
@@ -176,7 +179,7 @@ split_of_tasks = ['data', 'model', 'eval', 'noml', 'uni']
 
     ```python dataset.py ```   
 
-#### 3. load the trained modes for use.
+#### 3. load the snap shot of the models.
 
 1. save the trained model file to a diretory in the repository e.g. saved_models/
 
@@ -212,7 +215,7 @@ split_of_tasks = ['data', 'model', 'eval', 'noml', 'uni']
 
     ```bash run_encode_domain.sh ```   
 
-#### 3. load the trained modes for use.
+#### 3. load the snap shot of the models.
 
 1. save the trained model file to a diretory in the repository e.g. saved_models/
 
