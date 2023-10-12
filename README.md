@@ -16,7 +16,7 @@ raw_dataset/[split_of_training]_[split_of_tasks].json
 ## 2. Using the 6 baseline models
 
 ### 0. We provide the snap shot of the models that we have trained.
-This is the link to download the model snap shot: [link](https://drive.google.com/drive/folders/1M87JktTwvZ64lkWPkQ4Och0zeqYrJDR7?usp=sharing).
+This is the link to download the model snap shot: [link](https://drive.google.com/drive/folders/1udQBeYhkorGZK7C8SBFwSB42sg4h4NmD?usp=sharing).
 
 
 

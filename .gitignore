@@ -1,2 +1,5 @@
 # model snaps too big
 model_snaps/*
+
+# zipped modle snaps
+*.tar.xz
